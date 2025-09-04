@@ -57,6 +57,10 @@ The raw data required significant preparation to ensure quality and consistency 
 
 The cleaned data was analyzed using SQL to uncover trends and answer the core project questions.
 
+### 2. Exploratory Data Analysis (EDA) with SQL
+
+The cleaned data was analyzed using SQL to uncover trends and answer the core project questions.
+
 **Analyzing Seasonal Trends:**
 ```sql
 -- Calculate average CO level by month for the year 2024
@@ -71,7 +75,10 @@ GROUP BY
   month
 ORDER BY
   month;
+```
 
+**Identifying Top Cities by Pollution Levels:**
+```sql
 -- Find top 10 cities by average CO level (minimum 100 readings required)
 WITH city_stats AS (
   SELECT
@@ -94,3 +101,4 @@ WHERE
 ORDER BY
   avg_co_level DESC
 LIMIT 10;
+```

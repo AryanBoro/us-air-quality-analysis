@@ -7,7 +7,7 @@
 
 An end-to-end data analysis project that investigates U.S. Carbon Monoxide (CO) pollution levels. This project processes, analyzes, and visualizes environmental data to uncover spatial and temporal trends, transforming raw data into actionable insights.
 
-**🔗 [View Interactive Dashboard](https://lookerstudio.google.com/your-dashboard-link-here)**  
+**🔗 [View Interactive Dashboard](https://lookerstudio.google.com/https://lnkd.in/gCjDrfWX)**  
 *(Replace with your actual Looker Studio link)*
 
 ---
